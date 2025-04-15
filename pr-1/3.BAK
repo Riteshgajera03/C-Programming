@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{       int t1, t2, t3;
+	clrscr();
+
+		printf("enter value of t1 : ");
+		scanf("%d",&t1);
+
+		printf("enter value of t2 : ");
+		scanf("%d",&t2);
+
+		t3 = 180 - (t1 + t2);
+		printf("the ans is : %d\n", t3);
+
+	getch();
+}
