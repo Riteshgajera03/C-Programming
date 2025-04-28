@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+	int marks;
+	char grade;
+
+	clrscr();
+
+	printf("enter marks (1 to 100) :");
+	scanf("%d",&marks);
+
+	marks = (marks > 100) ? printf("invalid marks") :
+		(marks > 90) ? 'a':
+		(marks > 80) ? 'b':
+		(marks > 70) ? 'c':
+		(marks > 60) ? 'd':
+		(marks > 50) ? 'e':
+		(marks > 40) ? 'f';
+
+	printf("grade : %c\n", grade);
+
+	getch();
+}
