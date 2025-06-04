@@ -6,8 +6,7 @@ main()
 	int a;
 	char b;
 	char c;
-	clrscr();
-
+	void clrscr(void);
 
 		printf("\033[1;33m"); //color
 		printf("\n\nWelcome To TAJ SKYLILNE\n\n");
